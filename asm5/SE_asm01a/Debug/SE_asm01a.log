@@ -1,0 +1,25 @@
+﻿Сборка начата 10.12.2024 22:14:48.
+Уровень детализации журнала: Normal.     1>Проект "D:\Денис\3 сем\КПО\asm5\SE_asm01a\SE_asm01a.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "Debug\SE_asm01a.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\SE_asm01a.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\SE_asm01a.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling SE_asm01a.asm...
+         cmd.exe /C "C:\Users\Денис Мамонько\AppData\Local\Temp\tmpfc521035d5824f99b8f02efe536fafd9.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\SE_asm01a.obj" /Fl"Debug\\" /W3 /errorReport:prompt  /TaSE_asm01a.asm
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\Lib.exe /OUT:"D:\Денис\3 сем\КПО\asm5\Debug\SE_asm01a.lib" /NOLOGO /MACHINE:X86 Debug\SE_asm01a.obj
+         SE_asm01a.vcxproj -> D:\Денис\3 сем\КПО\asm5\Debug\SE_asm01a.lib
+       FinalizeBuildStatus:
+         Файл "Debug\SE_asm01a.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_asm01a.tlog\SE_asm01a.lastbuildstate".
+     1>Сборка проекта "D:\Денис\3 сем\КПО\asm5\SE_asm01a\SE_asm01a.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.73

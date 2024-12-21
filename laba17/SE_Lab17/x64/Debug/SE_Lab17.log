@@ -1,0 +1,48 @@
+﻿Сборка начата 07.11.2024 15:49:05.
+Уровень детализации журнала: Normal.     1>Проект "D:\Денис\3 сем\КПО\laba17\SE_Lab17\SE_Lab17.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\SE_Lab17.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt FST.cpp IT.cpp Lexer.cpp Log.cpp LT.cpp Out.cpp SE_Lab17.cpp
+         FST.cpp
+     1>D:\Денис\3 сем\КПО\laba17\SE_Lab17\FST.cpp(81,23): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         IT.cpp
+         Lexer.cpp
+     1>D:\Денис\3 сем\КПО\laba17\SE_Lab17\LT.h(32,21): warning C4838: Преобразование из "unsigned int" в "int" требует сужающего преобразования.
+         (компиляция исходного файла "Lexer.cpp")
+         
+         Log.cpp
+         LT.cpp
+         Out.cpp
+         SE_Lab17.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Денис\3 сем\КПО\laba17\x64\Debug\SE_Lab17.exe" /INCREMENTAL /ILK:"x64\Debug\SE_Lab17.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Денис\3 сем\КПО\laba17\x64\Debug\SE_Lab17.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Денис\3 сем\КПО\laba17\x64\Debug\SE_Lab17.lib" /MACHINE:X64 x64\Debug\Error.obj
+         x64\Debug\FST.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         x64\Debug\Lexer.obj
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\Out.obj
+         x64\Debug\Parm.obj
+         x64\Debug\SE_Lab17.obj
+         SE_Lab17.vcxproj -> D:\Денис\3 сем\КПО\laba17\x64\Debug\SE_Lab17.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\SE_Lab17.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\SE_Lab17.tlog\SE_Lab17.lastbuildstate".
+     1>Сборка проекта "D:\Денис\3 сем\КПО\laba17\SE_Lab17\SE_Lab17.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Денис\3 сем\КПО\laba17\SE_Lab17\SE_Lab17.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Денис\3 сем\КПО\laba17\SE_Lab17\FST.cpp(81,23): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\Денис\3 сем\КПО\laba17\SE_Lab17\LT.h(32,21): warning C4838: Преобразование из "unsigned int" в "int" требует сужающего преобразования.
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:02.53

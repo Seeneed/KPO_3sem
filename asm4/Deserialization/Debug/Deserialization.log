@@ -1,0 +1,34 @@
+﻿Сборка начата 10.12.2024 20:58:42.
+Уровень детализации журнала: Normal.     1>Проект "D:\Денис\3 сем\КПО\asm4\Deserialization\Deserialization.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\Deserialization.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Deserialization.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt AsmGeneration.cpp Deserializer.cpp Source.cpp
+         AsmGeneration.cpp
+         Deserializer.cpp
+         Source.cpp
+     1>D:\Денис\3 сем\КПО\asm4\Deserialization\Source.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Денис\3 сем\КПО\asm4\Debug\Deserialization.exe" /INCREMENTAL /ILK:"Debug\Deserialization.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Денис\3 сем\КПО\asm4\Debug\Deserialization.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Денис\3 сем\КПО\asm4\Debug\Deserialization.lib" /MACHINE:X86 Debug\AsmGeneration.obj
+         Debug\Deserializer.obj
+         Debug\Source.obj
+         Deserialization.vcxproj -> D:\Денис\3 сем\КПО\asm4\Debug\Deserialization.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Deserialization.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Deserialization.tlog\Deserialization.lastbuildstate".
+     1>Сборка проекта "D:\Денис\3 сем\КПО\asm4\Deserialization\Deserialization.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Денис\3 сем\КПО\asm4\Deserialization\Deserialization.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Денис\3 сем\КПО\asm4\Deserialization\Source.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:02.60

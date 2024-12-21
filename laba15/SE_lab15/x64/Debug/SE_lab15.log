@@ -1,0 +1,44 @@
+﻿Сборка начата 19.09.2024 21:00:24.
+Уровень детализации журнала: Normal.     1>Проект "D:\Денис\3 сем\КПО\laba15\SE_lab15\SE_lab15.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "D:\Денис\3 сем\КПО\laba15\x64\Debug\".
+         Создание каталога "x64\Debug\SE_lab15.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\SE_lab15.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\SE_lab15.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp In.cpp lab15.cpp Log.cpp Out.cpp Parm.cpp
+         Error.cpp
+         In.cpp
+         lab15.cpp
+     1>D:\Денис\3 сем\КПО\laba15\SE_lab15\lab15.cpp(68,23): warning C4838: Преобразование из "int" в "short" требует сужающего преобразования.
+     1>D:\Денис\3 сем\КПО\laba15\SE_lab15\lab15.cpp(68,38): warning C4838: Преобразование из "int" в "short" требует сужающего преобразования.
+         Log.cpp
+         Out.cpp
+         Parm.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Денис\3 сем\КПО\laba15\x64\Debug\SE_lab15.exe" /INCREMENTAL /ILK:"x64\Debug\SE_lab15.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Денис\3 сем\КПО\laba15\x64\Debug\SE_lab15.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Денис\3 сем\КПО\laba15\x64\Debug\SE_lab15.lib" /MACHINE:X64 x64\Debug\Error.obj
+         x64\Debug\In.obj
+         x64\Debug\lab15.obj
+         x64\Debug\Log.obj
+         x64\Debug\Out.obj
+         x64\Debug\Parm.obj
+         SE_lab15.vcxproj -> D:\Денис\3 сем\КПО\laba15\x64\Debug\SE_lab15.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\SE_lab15.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\SE_lab15.tlog\SE_lab15.lastbuildstate".
+     1>Сборка проекта "D:\Денис\3 сем\КПО\laba15\SE_lab15\SE_lab15.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Денис\3 сем\КПО\laba15\SE_lab15\SE_lab15.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Денис\3 сем\КПО\laba15\SE_lab15\lab15.cpp(68,23): warning C4838: Преобразование из "int" в "short" требует сужающего преобразования.
+         D:\Денис\3 сем\КПО\laba15\SE_lab15\lab15.cpp(68,38): warning C4838: Преобразование из "int" в "short" требует сужающего преобразования.
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.92

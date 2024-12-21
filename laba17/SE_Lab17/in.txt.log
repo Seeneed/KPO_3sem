@@ -1,0 +1,69 @@
+---Протокол---07.11.2024 03:49:08 ---
+in.txt
+in.txt.out
+in.txt.log
+Количество символов: 597
+Пропущено: 0
+Количество строк: 36
+Количество удаленных пробелов: 41
+
+
+Таблица лексем:
+01 tfi(ti,ti)
+02 {
+03 dti;
+04 i=iv(ivi);
+05 ri;
+06 };
+07 tfi(ti,ti)
+08 {
+09 dti;
+10 dtfi(ti,ti,
+11 ti);
+12 i=i(i,l,l)vi;
+13 ri;
+14 };
+15 m
+16 {
+17 dti;
+18 dti;
+19 dti;
+20 dti;
+21 dti;
+22 dti;
+23 dtfi(ti);
+24 i=l;
+25 i=l;
+26 i=l;
+27 i=l;
+28 i=i(i,i);
+29 i=i(i,i);
+30 pl;
+31 pi;
+32 l
+33 pi;
+34 pi(i);
+35 rl;
+36 };
+
+Таблица идентификаторов:
+fi, INT, F, 3, 0
+x, INT, P, 6, 1
+y, INT, P, 9, 5
+z, INT, V, 14, 0
+fs, STR, F, 33, 
+a, STR, P, 36, 
+b, STR, P, 39, 
+c, STR, V, 44, 
+substr, STR, F, 49, 
+a, STR, P, 52, 
+p, INT, P, 55, 0
+n, INT, P, 58, 0
+x, INT, V, 83, 0
+y, INT, V, 87, 0
+z, INT, V, 91, 0
+sa, STR, V, 95, '1234567890'
+sb, STR, V, 99, '1234567890'
+sc, STR, V, 103, 
+strlen, INT, F, 108, 0
+p, STR, P, 111, 

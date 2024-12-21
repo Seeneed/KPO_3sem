@@ -1,0 +1,24 @@
+﻿Сборка начата 05.12.2024 16:23:02.
+Уровень детализации журнала: Normal.     1>Проект "D:\Денис\3 сем\КПО\asm3\SE_Asm03\SE_Asm03.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\SE_Asm03.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\SE_Asm03.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling asm3.asm...
+         cmd.exe /C "C:\Users\Денис Мамонько\AppData\Local\Temp\tmp1e27d069fd9b47699a86e85263c32654.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\asm3.obj" /Fl"Debug\\" /W3 /errorReport:prompt  /Taasm3.asm
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Денис\3 сем\КПО\asm3\Debug\SE_Asm03.exe" /INCREMENTAL /ILK:"Debug\SE_Asm03.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Денис\3 сем\КПО\asm3\Debug\SE_Asm03.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Денис\3 сем\КПО\asm3\Debug\SE_Asm03.lib" /MACHINE:X86 Debug\asm3.obj
+         SE_Asm03.vcxproj -> D:\Денис\3 сем\КПО\asm3\Debug\SE_Asm03.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SE_Asm03.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_Asm03.tlog\SE_Asm03.lastbuildstate".
+     1>Сборка проекта "D:\Денис\3 сем\КПО\asm3\SE_Asm03\SE_Asm03.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.51
